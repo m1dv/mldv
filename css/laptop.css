@@ -1,0 +1,550 @@
+/*general customization*/
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: default;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+p,
+li {
+  font-size: 19px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+a:visited {
+  color: red;
+  text-decoration: underline;
+}
+a:hover {
+  color: blue;
+}
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+i {
+  color: steelblue;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 27.5px;
+}
+
+html {
+  zoom: 67%;
+  border: 2px solid gray;
+}
+.text {
+  line-height: 1.6;
+}
+/*end general customization*/
+
+/*banner stuff*/
+
+#banner {
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  height: 500px;
+}
+#banner h1 {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+#banner span {
+  font-size: 30px;
+}
+
+/*no more banner*/
+
+/*it's called the nav right*/
+#nav-bar .container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#nav-bar .container a {
+  font-size: 20px;
+}
+#nav-bar .container #information,
+#digitalcv,
+#certificates,
+#projects {
+  border-left: 1px solid gray;
+  /* margin-top: -30px; */
+  /* padding-top: 30px; */
+  height: 100px;
+  /* margin-bottom: -30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+#certificates,
+#projects {
+  margin-left: 20px;
+}
+#digitalcv,
+#projects {
+  border-right: 1px solid gray;
+}
+#infrmation {
+  position: relative;
+  transform: translate(7%, 50%);
+}
+#profilepic,
+#tempprofilepic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -130px;
+  margin-bottom: -30px;
+}
+#personal-info {
+  background-color: #e7e7e7;
+  height: 97%;
+}
+#target {
+  margin-top: 15px;
+}
+/*yeah it definitely is called the nav*/
+
+/*people say my about me is depressing so here we go*/
+
+#about .container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  width: 100%;
+  height: 350px;
+}
+#personalinfostuff {
+  width: 450px;
+}
+#jobgoals {
+  width: 700px;
+  margin-left: 75px;
+}
+#joggertext {
+  width: 700px;
+  margin-left: 75px;
+}
+#personalicons {
+  display: flex;
+  gap: 20px;
+}
+#personalicons i {
+  font-size: 25px;
+}
+.requiredtobold {
+  font-weight: bolder;
+}
+.fadeout {
+  list-style: none;
+  margin-left: -40px;
+  margin-bottom: 30px;
+  line-height: 0.5;
+}
+#mt-40info li {
+  line-height: 0.5;
+}
+
+/*people have stopped saying my about me is depressing so here we go*/
+
+/*job-info*/
+
+#job-info .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.5fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 40px;
+}
+#job-info .containerhidden {
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  grid-template-rows: 1.5fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  height: fit-content;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#job-info .container div {
+  width: 475px;
+  height: fit-content;
+}
+#job-info .containerhidden div {
+  width: 475px;
+  height: fit-content;
+}
+#job-info .containerhidden div:hover .jobinfobutton {
+  display: inline-block;
+}
+#job-info .container div:hover .jobinfobutton2 {
+  display: inline-block;
+}
+#job-info .container i {
+  font-size: 40px;
+  color: grey;
+}
+#job-info .containerhidden i {
+  font-size: 40px;
+  color: grey;
+}
+#experienceheading,
+#educationheading,
+#workheading,
+#hobbiesheading,
+#languageheading,
+#skillsheading {
+  display: flex;
+  gap: 100px;
+}
+
+.dates {
+  margin-left: -42px;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#NSSdate {
+  margin-left: 0px;
+}
+#THschooldate {
+  margin-left: 0px;
+}
+#Funisudate {
+  margin-left: 0px;
+}
+.levelconnector {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  display: flex;
+  gap: 10px;
+}
+.levelblue {
+  background-color: steelblue;
+  height: 7px;
+  width: 7px;
+  border-radius: 5px;
+}
+.levelgray {
+  background-color: gray;
+  height: 7px;
+  width: 7px;
+  border-radius: 5px;
+}
+#FCEcolumn,
+#HSKcolumn,
+#languagecolumn {
+  display: flex;
+  gap: 5px;
+}
+#HTMLCSS,
+#Python,
+#Javascript {
+  display: flex;
+  gap: 5px;
+}
+#geoguessr,
+#nerdprogrammer,
+#valorant,
+#radiohead {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  justify-content: center;
+}
+.hobbies i {
+  border: 1px solid steelblue;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  color: steelblue;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-left: -10px;
+}
+.hobbies {
+  display: flex;
+  gap: 20px;
+  margin-top: 0px;
+}
+#workedoutofmymind,
+#school,
+#projector {
+  margin-left: 20px;
+}
+
+#digitalcvmoment1,
+#education-school,
+#school-school,
+#workexperience-school,
+#clubexperience-school {
+  list-style: none;
+  line-height: 1.5;
+}
+#digitalcvmoment::before,
+#education-school::before,
+#school-school::before,
+#workexperience-school::before,
+#clubexperience-school::before {
+  content: "\2022";
+  color: steelblue;
+  font-weight: bold;
+  font-size: 30px;
+  display: inline-block;
+  width: 16px;
+  margin-left: -70px;
+  margin-top: -10px;
+  width: 25px;
+}
+#NSSdate,
+#workexperience-text2,
+#workexperience-text {
+  margin-left: -40px;
+}
+#workexperience-text2 li {
+  list-style: disc;
+}
+/* i wish there's a geoguessr certificate */
+
+#certificate .container #certifcontainer {
+  display: flex;
+  gap: 20px;
+  margin-left: -0px;
+  padding-bottom: 10px;
+}
+
+.certifimages,
+#certifimages {
+  height: 130px;
+  margin-right: 20px;
+}
+
+#certificates1,
+#achievements {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+#certificate-bold,
+#achievements-bold {
+  font-size: 25px;
+}
+
+#achievements {
+  padding-left: 20px;
+  border-left: 1px solid orange;
+}
+#certificate .container {
+  border-bottom: 1px solid orange;
+}
+
+#project .container #projectile {
+  display: flex;
+  gap: 50px;
+}
+/*what do you call many footers? a feeter*/
+
+#footer .container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#footer p {
+  font-size: 20px;
+}
+
+#facebook-circled {
+  display: flex;
+  gap: 5px;
+}
+
+#linkedin-circled {
+  display: flex;
+  gap: 5px;
+}
+
+#github-circled {
+  display: flex;
+  gap: 5px;
+}
+
+.sth {
+  width: 600px;
+  margin-top: 20px;
+}
+.projectheadings {
+  margin-left: 225px;
+}
+#digitalcvproject,
+#magazineproject {
+  display: flex;
+  gap: 70px;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#funixdeveloper1,
+#developerfunix1,
+#funixdeveloper2,
+#developerfunix2 {
+  display: flex;
+  gap: 0px;
+}
+#projector2 li,
+#projector1 li,
+#projector3 li {
+  list-style: none;
+}
+.traumerei {
+  width: 600px;
+  border: 4px solid gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 550px;
+}
+.imtired {
+  display: flex;
+  gap: 100px;
+}
+.imtired p {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#jobless1,
+#jobless2 {
+  gap: 170px;
+}
+#projector1,
+#projector2,
+#projector3 {
+  margin-top: 50px;
+}
+#projector1 {
+  margin-left: -40px;
+  margin-top: 20px;
+  width: 420px;
+}
+.graylight {
+  background-color: gray;
+  width: 600px;
+  height: 4px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#graylight1,
+#graylight2,
+#graylight3,
+#graylight4 {
+  margin-left: -40px;
+}
+/*sorry had to end the damn thing with a dad joke*/
+#emailetner {
+  width: 500px;
+  height: 40px;
+  margin-top: -120px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#submitbutton {
+  background-color: steelblue;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+#submitbutton:hover {
+  background-color: rgb(0, 73, 133);
+}
+.jobinfobutton {
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: none;
+}
+.jobinfobutton2 {
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.jobinfobutton:hover {
+  background-color: bisque;
+}
+.jobinfobutton2:hover {
+  background-color: bisque;
+}
+
+.hidden {
+  display: none;
+}
+.paragraph {
+  font-size: 23px;
+}
+.idate {
+  font-size: 20px;
+}

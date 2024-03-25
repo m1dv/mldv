@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <div
+      id="banner"
+      style="padding: 50px; background-image: url(images/Logo.png)"
+    >
+      <h1>DANG ANH KIET</h1>
+      <span>Student</span>
+    </div>
+
+    <section id="nav-bar" style="position: relative">
+      <nav class="container">
+        <div id="information">
+          <i class="icon-user"></i>
+          <a href="#">INFORMATION</a>
+        </div>
+        <div id="digitalcv">
+          <i class="icon-doc-text-inv"></i>
+          <a href="ASSIGNMENT 01 STARTER - Dang Anh Kiet/index.html"
+            >DIGITAL CV</a
+          >
+        </div>
+        <div id="infrmation">
+          <img
+            src="images/z4509302349874_25ad57b102fe98d584c23651f2a6f0a7.jpg"
+            alt="yng"
+            id="profilepic" class="hidden"
+          />
+          <img
+            src="images/default-avatar.png"
+            alt="ing"
+            id="tempprofilepic"
+          />
+        </div>
+        <div id="certificates">
+          <i class="icon-mail-alt"></i>
+          <a href="#">CERTIFICATES</a>
+        </div>
+        <div id="projects">
+          <i class="icon-star-1"></i>
+          <a href="Karma Police/index.html">PROJECTS</a>
+        </div>
+      </nav>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="container">
+        <div id="target" >
+          <h2 class="section-title" id="jobgoals" >JOB GOALS</h2>
+          <p class="text" id="joggertext" style="margin-top: -40px;">
+            Middle school student. Currently learning web development, Python
+            along with computer science. Constantly on the quest for knowledge,
+            work, and self-improvement. Planning to become a
+            <b>Full-stack Developer</b>.
+          </p>
+        </div>
+        <div
+          id="personal-info"
+          style="
+            margin-top: -27px;
+            padding: 21px;
+            padding-top: 47px;
+            padding-left: 40px;
+          "
+        >
+          <h2 class="section-title" id="personalinfostuff" style="font-weight:600">
+            PERSONAL INFORMATION
+          </h2>
+          <form id="form"> 
+            <input type="email" id="emailetner" placeholder="Please enter email to see credentials."><br>
+            <input type="submit" id="submitbutton"></input>
+          </form>
+          
+          
+          <ul id="mt-40info" class="hidden" style="margin-top: -30px;">
+            <li class="fadeout">
+              <span class="requiredtobold">GENDER</span> : Male
+            </li>
+            <li class="fadeout">
+              <span class="requiredtobold">DATE OF BIRTH</span> : 23/03/2009
+            </li>
+            <li class="fadeout">
+              <span class="requiredtobold">PHONE NUMBER</span> : (+84) 912398xxx
+            </li>
+            <li class="fadeout">
+              <span class="requiredtobold">EMAIL</span> :
+              kietdafx28257@funix.edu.vn
+            </li>
+            <li class="fadeout">
+              <span class="requiredtobold">ADDRESS</span> : Haven
+            </li>
+            <li class="fadeout">
+              <span class="requiredtobold">WEBSITE</span> :
+              <a
+                href="ASSIGNMENT 01 STARTER - Dang Anh Kiet/other files/Magazine.html"
+                >Magazine</a
+              >
+            </li>
+          </ul>
+          <div id="personalicons" >
+            <i
+              class="hidden icon-twitter"
+              style="font-size: 15px; color: steelblue" id="twiticon"
+            ></i>
+            <i
+              class="hidden icon-facebook"
+              style="font-size: 15px; color: steelblue" id="yticon"
+            ></i>
+            <i class="hidden icon-gplus" style="font-size: 15px; color: steelblue" id="ggicon"></i>
+            <i
+              class="hidden icon-linkedin"
+              style="font-size: 15px; color: steelblue" id="linkedinicon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div id="jobin4container" class="containerhidden">
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="experienceheading">
+            <h2>EXPERIENCE</h2>
+            <i class="ic-toolbox"></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div id="workedoutofmymind" class="hidden">
+            <div id="workexperience">
+              <div id="workexperiencecolumn">
+                <ul class="workexperiencetext">
+                  <li
+                    class="text paragraph"
+                    id="workexperience-school"
+                    style="
+                      font-weight: bolder;
+                      margin-top: 15px;
+                    "
+                  >
+                    NSS
+                  </li>
+                </u>
+                <div class="workexperiencetext">
+                  <div
+                    class="dates"
+                    id="NSSdate"
+                    style="display: flex; gap: 7.5px"
+                  >
+                    <p class="text" id="workexperience-bold">05/09/2022 -</p>
+                    <p class="text">29/01/2023</p>
+                  </div>
+                </div>
+                <div class="workexperiencetext">
+                  <p class="text" id="workexperience-text">
+                    Full-stack Developer
+                  </p>
+                  <ul class="text" id="workexperience-text2">
+                    <li>Build websites corresponding to given instructions</li>
+                    <li>Analyse and design databases</li>
+                    <li>
+                      Use server-side coding languages to make Web Services
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Some random club -->
+
+            <div id="clubexperience">
+              <div id="clubexperiencecolumn" class="hidden">
+                <ul class="workexperiencetext">
+                  <li
+                    class="text"
+                    id="clubexperience-school"
+                    style="
+                      font-weight: bolder;
+                      margin-top: 15px;
+                      font-size: 23px;
+                    "
+                  >
+                    TH School
+                  </li>
+                </ul>
+                <div class="workexperiencetext" class="hidden">
+                  <div
+                    class="dates"
+                    id="THschooldate"
+                    style="display: flex; gap: 7.5px"
+                  >
+                    <p class="text" id="clubexperience-bold">01/08/2023 -</p>
+                    <p
+                      class="text"
+                      style="
+                        color: white;
+                        background-color: steelblue;
+                        padding: 5px;
+                        margin-top: -4px;
+                        border-radius: 10px;
+                      "
+                    >
+                      Now
+                    </p>
+                  </div>
+                </div>
+                <div class="workexperiencetext">
+                  <p class="text" id="clubexperience-text">Game developer</p>
+                  <ul class="text" id="clubexperience-text2">
+                    <li>Code games corresponding to given instructions</li>
+                    <li>Analyse and debug glitched games</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--they call education when education-->
+
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="educationheading" class="hidden">
+            <h2>EDUCATION</h2>
+            <i class="ic-pencil"></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div id="school" class="hidden">
+            <div id="schoolcolumn">
+              <ul class="educationbold">
+                <li
+                  class="text paragraph"
+                  id="school-school"
+                  style="font-weight: bolder; margin-top: 15px;"
+                >
+                  NSS
+                </li>
+              </ul>
+              <div class="educationbold">
+                <ul class="dates">
+                  <p class="text" id="school-bold">01/08/2022 - 29/01/2023</p>
+                </ul>
+              </div>
+              <div class="educationbold">
+                <p class="text" id="school-text">
+                  Started learning Python in school with teacher's help.
+                </p>
+                <p class="text" id="school-text2">
+                  Learning Python with prior knowledge.
+                </p>
+              </div>
+            </div>
+
+            <div id="educationcolumn">
+              <ul class="educationbold">
+                <li
+                  class="text paragraph"
+                  id="education-school"
+                  style="font-weight: bolder; margin-top: 15px;"
+                >
+                  FUNiX
+                </li>
+              </ul>
+              <div class="educationbold">
+                <div
+                  class="dates"
+                  id="Funisudate"
+                  style="display: flex; gap: 7.5px"
+                >
+                  <p class="text" id="education-bold">28/06/2023 -</p>
+                  <p
+                    class="text"
+                    style="
+                      color: white;
+                      background-color: steelblue;
+                      padding: 5px;
+                      margin-top: -4px;
+                      border-radius: 10px;
+                    "
+                  >
+                    Now
+                  </p>
+                </div>
+              </div>
+              <div class="educationbold">
+                <p class="text" id="education-text">
+                  Started learning Web Development
+                </p>
+                <p class="text" id="education-text2">
+                  Learning HTML and CSS with no prior knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--now you grow up they call it work-->
+
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="workheading">
+            <h2>WORK</h2>
+            <i class="ic-toolbox"></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div id="projector" class="hidden">
+            <ul id="digitalcvmoment1">
+              <li
+                class="text paragraph"
+                style="
+                  font-weight: bolder;
+                  margin-top: 15px;
+                  margin-bottom: 15px;
+                "
+                id="digitalcvmoment"
+              >
+                Digital CV
+              </li>
+            </ul>
+            <p class="dates idate" style="margin-left: 0px;">2023</p>
+
+            <ul id="projector1">
+              <li class="text"><b>Position:</b> Developer</li>
+              <li class="text">
+                <b>Description:</b> A digital CV that presents all of my
+                personal information along with some other areas
+              </li>
+              <li class="text">
+                <b>Job:</b> Make the CV, provide information, style the page
+              </li>
+              <li class="text"><b>Programming languages:</b> HTML, CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="hobbiesheading" >
+            <h2>HOBBIES</h2>
+            <i class="ic-telescope" ></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div class="hobbies hidden">
+            <div id="geoguessr" >
+              <p
+                class="text idate"
+                style="font-weight: bolder; margin-top: 15px;"
+              >
+                Geography
+              </p>
+              <i
+                class="ic-hotairballoon"
+                style="font-size: 50px; color: steelblue; margin-left: 20px"
+              ></i>
+            </div>
+            <div id="nerdprogrammer">
+              <p
+                class="text idate"
+                style="font-weight: bolder; margin-top: 15px;"
+              >
+                Programming
+              </p>
+              <i
+                class="ic-telescope"
+                style="font-size: 50px; color: steelblue; margin-left: 30px"
+              ></i>
+            </div>
+            <div id="valorant">
+              <p
+                class="text idate"
+                style="font-weight: bolder; margin-top: 15px;"
+              >
+                Games
+              </p>
+              <i
+                class="ic-strategy"
+                style="font-size: 50px; color: steelblue; margin-left: 15 px"
+              ></i>
+            </div>
+            <div id="radiohead">
+              <p
+                class="text idate"
+                style="font-weight: bolder; margin-top: 15px;"
+              >
+                Radiohead
+              </p>
+              <i
+                class="ic-megaphone"
+                style="font-size: 50px; color: steelblue; margin-left: 20px"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="languageheading">
+            <h2>LANGUAGE SKILLS</h2>
+            <i class="ic-mic"></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div id="languages" class="hidden">
+            <div id="languagecolumn">
+              <p
+                class="text idate"
+                id="school-school1"
+                style="font-weight: bold; margin-top: 15px;"
+              >
+                IELTS -
+              </p>
+              <p
+                class="text idate"
+                id="school-text"
+                style="font-weight: bold; margin-top: 15px;"
+              >
+                OVERALL BAND SCORE: 7.5
+              </p>
+            </div>
+            <div class="levelconnector">
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelgray" style="height: 6px"></div>
+            </div>
+            <div id="FCEcolumn">
+              <p
+                class="text idate"
+                id="FCE-school"
+                style="font-weight: bold; margin-top: 15px;"
+              >
+                FCE -
+              </p>
+              <p
+                class="text idate"
+                id="FCE-text"
+                style="font-weight: bold; margin-top: 15px;"
+              >
+                184/190 - C1
+              </p>
+            </div>
+            <div class="levelconnector">
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+            </div>
+
+            <div id="HSKcolumn">
+              <p
+                class="text idate"
+                id="FCE-school"
+                style="font-weight: bold; margin-top: 15px;"
+              >
+                CHINESE
+              </p>
+              <p
+                class="text idate"
+                id="HSK-text"
+                style="font-weight: bold; margin-top: 15px; "
+              >
+                HSK3 - Learning HSK4
+              </p>
+            </div>
+            <div class="levelconnector">
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelblue" style="height: 6px"></div>
+              <div class="levelgray" style="height: 6px"></div>
+              <div class="levelgray" style="height: 6px"></div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 20px; border: 1px solid gray; padding: 20px">
+          <div id="skillsheading">
+            <h2>COMPUTER SKILLS</h2>
+            <i class="ic-tools-2"></i>
+          </div>
+          <button class="jobinfobutton"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> More info:</button>
+          <button class="jobinfobutton2 hidden"><i class="icon-star-1" style="font-size: 20px; color:black;"></i> Less info:</button>
+          <div id="csskills" class="hidden">
+          <div id="HTMLCSS">
+            <p
+              class="text idate"
+              id="HTMLCSS-bold"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              HTML/CSS -
+            </p>
+            <p
+              class="text idate"
+              id="HTMLCSS-text"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              Fundamental
+            </p>
+          </div>
+          <div class="levelconnector">
+            <div class="levelblue" style="height: 6px"></div>
+            <div class="levelblue" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+          </div>
+
+          <div id="Python">
+            <p
+              class="text idate"
+              id="Python-bold"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              Python -
+            </p>
+            <p
+              class="text idate"
+              id="Python-text"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              Fundamental
+            </p>
+          </div>
+          <div class="levelconnector">
+            <div class="levelblue" style="height: 6px"></div>
+            <div class="levelblue" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+          </div>
+
+          <div id="Javascript">
+            <p
+              class="text idate"
+              id="Javascript-bold"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              Javascript -
+            </p>
+            <p
+              class="text idate"
+              id="Javascript-text"
+              style="font-weight: bold; margin-top: 15px;"
+            >
+              Basic
+            </p>
+          </div>
+          <div class="levelconnector">
+            <div class="levelblue" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+            <div class="levelgray" style="height: 6px"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="bg-grey">
+      <div class="container">
+        <h2 class="section-title" id="certifhead">CERTIFICATES AND ACHIEVEMENTS</h2>
+        <div id="certifcontainer">
+          <div id="certificates1">
+            <img src="images/Cert_WEB.png" alt="yessir" id="certifimages" />
+            <div class="scherzi">
+              <div class="infotext">
+                <h3 class="text" id="certificate-bold">
+                  FUNIX - WEB DEVELOPMENT
+                </h3>
+              </div>
+              <div class="infotext">
+                <p class="text" id="certificate-text">
+                  - From the CCDN course (GPA: 8.9)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="achievements">
+            <img src="images/Cert_PRF.png" alt="yessir" class="certifimages" />
+            <div class="scherzi">
+              <div class="infotext">
+                <h3 class="text" id="achievements-bold">FUNIX - JAVASCRIPT</h3>
+              </div>
+              <div class="infotext">
+                <p class="text" id="achievements-text">
+                  - From the CCDN course (GPA: 8.5)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container">
+        <h2 class="section-title" id="projhead">PROJECTS</h2>
+        <div id="projectile">
+          <div>
+            <img src="images/project_1.png" alt="sth" class="sth" id="digitalcvimg"/>
+
+            <div class="traumerei">
+              <h3 class="projectheadings"><a href="project sites/digital-cv.html">Digital CV</a></h3>
+              <div class="graylight"></div>
+              <div id="digitalcvproject">
+                <p
+                  class="text"
+                  style="
+                    color: white;
+                    background-color: steelblue;
+                    padding: 10px;
+                    margin-top: -15px;
+                    border-radius: 20px;
+                    width: 50px;
+                    font-size: 23px;
+                  "
+                >
+                  2023
+                </p>
+                <div id="funixdeveloper1">
+                  <i class="icon-user-1" style="font-size: 23px"></i>
+                  <p class="paragraph">FUNiX</p>
+                </div>
+                <div id="developerfunix1">
+                  <i class="icon-lamp" style="font-size: 23px"></i>
+                  <p class="paragraph">Developer</p>
+                </div>
+              </div>
+              <div class="graylight"></div>
+              <ul id="projector3">
+                <li class="text" id="readdesc1">
+                  <div class="imtired">
+                    <b>Description:</b>
+                    <p id="projecttxt1">
+                      A digital CV that presents all of my personal information.
+                    </p>
+                  </div>
+                </li>
+                <div class="graylight" id="graylight3"></div>
+                <li class="text" id="jobless3">
+                  <div class="imtired" id="jobless1">
+                    <b>Job:</b>
+                    <p id="projecttxt2">Make the CV, provide information, style the page</p>
+                  </div>
+                </li>
+                <div class="graylight" id="graylight1"></div>
+                <li class="text">
+                  <div class="imtired">
+                    <b>Languages:</b>
+                    <p id="projecttxt3">HTML, CSS</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/project_3.png" alt="sth" class="sth" id="magazineimg"/>
+            <div class="traumerei">
+              <h3 class="projectheadings"><a href="ASSIGNMENT 01 STARTER - Dang Anh Kiet/other files/Magazine.html">Magazine</a></h3>
+              <div class="graylight"></div>
+              <div id="magazineproject">
+                <p
+                  class="text"
+                  style="
+                    color: white;
+                    background-color: steelblue;
+                    padding: 10px;
+                    margin-top: -15px;
+                    border-radius: 20px;
+                    width: 50px;
+                    font-size: 23px;
+                  "
+                >
+                  2023
+                </p>
+                <div id="funixdeveloper2">
+                  <i class="icon-user-1" style="font-size: 23px"></i>
+                  <p class="paragraph">FUNiX</p>
+                </div>
+                <div id="developerfunix2">
+                  <i class="icon-lamp" style="font-size: 23px"></i>
+                  <p class="paragraph">Developer</p>
+                </div>
+              </div>
+              <div class="graylight"></div>
+              <ul id="projector2">
+                <li class="text">
+                  <div class="imtired" id="readdesc2">
+                    <b>Description:</b>
+                    <p id="projecttxt12">A gaming magazine that has lots of information.</p>
+                  </div>
+                </li>
+                <div class="graylight" id="graylight4"></div>
+                <li class="text" id="jobless4">
+                  <div class="imtired" id="jobless2">
+                    <b>Job:</b>
+                    <p id="projecttxt22">
+                      Do research, write down the information, style the page
+                    </p>
+                  </div>
+                </li>
+                <div class="graylight" id="graylight2"></div>
+                <li class="text">
+                  <div class="imtired">
+                    <b>Languages:</b>
+                    <p id="projecttxt32">HTML, CSS</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <div id="facebook-circled">
+          <i class="icon-facebook-circled"></i>
+          <p>Facebook</p>
+        </div>
+        <div id="linkedin-circled">
+          <i class="icon-linkedin-circled"></i>
+          <p>Linkedin</p>
+        </div>
+        <div id="github-circled">
+          <i class="icon-github-circled"></i>
+          <p>Github</p>
+        </div>
+      </div>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>

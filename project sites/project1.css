@@ -1,0 +1,110 @@
+* {
+  font-family: sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+#bluecontainer {
+  height: 100vh;
+  width: 100%;
+  background-color: blue;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: -20%;
+}
+
+.contentcontainer {
+  background-color: white;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+#team,
+#primary,
+#timeline {
+  width: 47.5%;
+  margin-left: -12.5%;
+}
+#goals,
+#scopes {
+  width: 75%;
+  margin-left: 2.5%;
+}
+#primary,
+#scopes {
+  height: 36.5vh;
+  margin-top: 5%;
+}
+#goals,
+#team {
+  height: 50vh;
+}
+#timeline {
+  width: 47.5%;
+  height: 90.3vh;
+  margin-left: 144.7%;
+  margin-top: -126.7%;
+}
+h2 {
+  color: blue;
+  margin-top: 4%;
+  margin-left: -2.5%;
+  border-bottom: 4px solid gainsboro;
+  padding-bottom: 10px;
+  margin-right: 10%;
+}
+#goals h2,
+#scopes h2 {
+  margin-top: 2.5%;
+}
+.goals {
+  display: flex;
+  font-size: 18px;
+  gap: 60px;
+  margin-top: 3%;
+  border-bottom: 1px solid gainsboro;
+  margin-right: 10%;
+  padding-bottom: 2%;
+}
+#flag1,
+#flag2,
+#flag3,
+#human1,
+#human2,
+#human3,
+#human4 {
+  font-size: 30px;
+  margin-top: 4%;
+}
+p {
+  font-size: 16px;
+}
+svg {
+  font-size: 30px;
+  margin-top: 4%;
+}
+#datelist .goals {
+  border-bottom: none;
+}
+span {
+  background-color: purple;
+  align-content: center;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  border: 0.5px solid black;
+  justify-content: center;
+  padding-left: 7px;
+  margin-top: 4%;
+}
+.date {
+  border-bottom: 2px dotted cyan;
+  padding-bottom: 1%;
+  margin-left: -10px;
+}
+#timeline {
+  margin-top: -94.5%;
+  height: 91.5vh;
+}

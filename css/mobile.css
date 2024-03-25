@@ -1,0 +1,185 @@
+@media (max-width: 576px) {
+  #banner {
+    height: 900px;
+  }
+  h1 {
+    margin-top: 300px;
+  }
+  #profilepic,
+  #tempprofilepic {
+    display: none;
+  }
+  #about .container {
+    display: inline-block;
+  }
+  p,
+  li {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-bottom: 90px;
+  }
+  i {
+    color: steelblue;
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  #nav-bar .container a {
+    font-size: 30px;
+  }
+  #personal-info {
+    width: 750px;
+    height: 97%;
+    margin-top: -4%;
+    margin-bottom: 30%;
+  }
+  #nav-bar .container {
+    display: inline-block;
+    margin-left: 7.5%;
+  }
+  #nav-bar .container #information,
+  #digitalcv,
+  #certificates,
+  #projects {
+    /* margin-top: -30px; */
+    /* padding-top: 30px; */
+    height: 100px;
+    /* margin-bottom: -30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    gap: 10px;
+    margin-left: -6.5%;
+  }
+  #digitalcv,
+  #projects {
+    border-right: none;
+    margin-left: -10%;
+    padding: 0;
+  }
+  #projects {
+    margin-left: -10.25%;
+  }
+  #information,
+  #certificates {
+    border-left: none;
+  }
+  #certificates {
+    margin-left: -6.25%;
+  }
+  #target {
+    margin-bottom: 30%;
+    margin-top: 30%;
+    margin-left: -5%;
+  }
+  #job-info .container,
+  #job-info .containerhidden {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  #mt-40info li {
+    margin-bottom: 7.5%;
+  }
+  #project .container #projectile {
+    display: inline-block;
+    margin-left: 3%;
+  }
+  #projhead {
+    margin-left: 3%;
+  }
+  #certificate .container #certifcontainer {
+    display: inline-block;
+    margin-left: 3%;
+  }
+  #achievements,
+  #certificate .container {
+    border: none;
+    padding: 0;
+    margin-bottom: 10%;
+  }
+  #certifhead {
+    margin-left: 3%;
+    width: 600px;
+  }
+  #certificates1,
+  #achievements {
+    width: 600px;
+  }
+  #certificate-bold,
+  #achievements-bold {
+    font-size: 30px;
+  }
+  #certificates1 {
+    margin-bottom: 10%;
+  }
+  .workexperiencetext ul {
+    width: 550px;
+  }
+  .paragraph {
+    font-size: 30px;
+  }
+  .idate {
+    font-size: 25px;
+  }
+  .hobbies {
+    width: 100px;
+  }
+  #job-info .container div {
+    width: 600px;
+    height: fit-content;
+  }
+  #job-info .containerhidden div {
+    width: 600px;
+    height: fit-content;
+  }
+  #projector1 {
+    width: 550px;
+  }
+  #footer p {
+    display: none;
+  }
+  #footer i {
+    font-size: 60px;
+  }
+  #footer {
+    margin-left: -30%;
+  }
+  #digitalcvimg,
+  #magazineimg {
+    width: 630px;
+  }
+  .traumerei {
+    height: fit-content;
+    width: 625px;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+  .graylight {
+    width: 625px;
+  }
+  .imtired p {
+    margin-bottom: 40px;
+  }
+  #projecttxt2,
+  #projecttxt22 {
+    margin-left: 0%;
+  }
+  #projecttxt3,
+  #projecttxt32 {
+    margin-left: -6%;
+  }
+  #projecttxt1,
+  #projecttxt12 {
+    margin-left: -7%;
+  }
+}

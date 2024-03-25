@@ -1,0 +1,351 @@
+/* large-scale stylings*/
+
+* {
+  font-family: sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+.text,
+ul,
+ol {
+  font-size: 20px;
+  padding: 20px;
+}
+.container {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 0.1px solid black;
+}
+
+body {
+  zoom: 90%;
+}
+/* hyperlink styling*/
+
+a:link {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  margin: 0px;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline blueviolet;
+  font-weight: bolder;
+}
+a:active {
+  font-style: italic;
+}
+
+/* end of hyperlink styling*/
+
+/* end of large-scale stylings*/
+
+/* separate stylings*/
+
+h1 {
+  font-size: 50px;
+  color: rgb(0, 60, 125);
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 1000px;
+  padding-left: -50px;
+  border-bottom: 5px solid black;
+  padding-bottom: 10px;
+}
+
+/* personal information */
+
+/* date of birth customization */
+
+#dateofbirth {
+  display: flex;
+  gap: 190px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#dateofbirth-bold,
+#gender-bold,
+#phonenumber-bold,
+#email-bold,
+#address-bold,
+#website-bold,
+#HTMLCSS-bold,
+#Python-bold,
+#Javascript-bold,
+#certificate-bold,
+#achievements-bold {
+  font-weight: bolder;
+}
+
+/* end of date of birth customization */
+
+/* gender */
+
+#gender {
+  display: flex;
+  gap: 255px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+/* end of gender */
+
+/* image customization */
+
+.profilepicture {
+  text-align: right;
+  margin-right: 100px;
+  height: 0px;
+  margin-top: -10px;
+  margin-bottom: -50px;
+}
+
+/*end of image customization*/
+
+/* phone number customization */
+
+#phonenumber {
+  display: flex;
+  gap: 180px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+
+/* end of phone number customization */
+
+/* email customization */
+
+#email {
+  display: flex;
+  gap: 270px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+/* end of email customization */
+
+/* address customization */
+
+#address {
+  display: flex;
+  gap: 245px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+
+/* end of address customization */
+
+/* website customization */
+
+#website {
+  display: flex;
+  gap: 265px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#website-text {
+  position: relative;
+  top: 50px;
+  height: 0px;
+  padding: 0px;
+}
+
+/*end of website customization*/
+
+/* end of personal info */
+
+/* Target Jobs */
+
+#jobtext {
+  margin-left: 10px;
+  margin-top: -20px;
+  line-height: 2;
+}
+#jobs {
+  margin-left: 30px;
+  margin-top: -40px;
+  width: 500px;
+}
+
+/* end of Target Jobs */
+
+/*Education*/
+
+/* Funix */
+
+#education-bold,
+#school-bold {
+  font-weight: bolder;
+}
+#education,
+#school {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#educationcolumn,
+#schoolcolumn {
+  display: flex;
+  flex-direction: column;
+  gap: -50px;
+  margin-top: 20px;
+}
+#education-school,
+#school-school {
+  font-weight: bolder;
+}
+#education-text,
+#school-text {
+  margin-top: -30px;
+}
+#education-text2,
+#school-text2 {
+  margin-top: -50px;
+}
+.permanenteducation {
+  border-left: 0.1px solid black;
+  height: 430px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+/* end of education */
+
+/* Work Experience */
+
+#workexperience-bold,
+#clubexperience-bold {
+  font-weight: bolder;
+}
+#workexperience,
+#clubexperience {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#workexperiencecolumn,
+#clubexperiencecolumn {
+  display: flex;
+  flex-direction: column;
+  gap: -50px;
+  margin-top: 20px;
+}
+#workexperience-school,
+#clubexperience-school {
+  font-weight: bolder;
+}
+#workexperience-text,
+#clubexperience-text {
+  margin-top: -30px;
+}
+#workexperience-text2,
+#clubexperience-text2 {
+  margin-top: -50px;
+}
+#workexperience-text2 li,
+#clubexperience-text2 li {
+  margin-left: 30px;
+}
+#workedoutofmymind {
+  border-left: 0.1px solid black;
+  height: 500px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+/* end of work experience */
+
+/*Skill level*/
+
+#HTMLCSS {
+  display: flex;
+  gap: 225px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#Python {
+  display: flex;
+  gap: 270px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#Javascript {
+  display: flex;
+  gap: 232.5px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+
+/*end of skill levels*/
+
+/*Certificates and Achievements*/
+
+#certificate {
+  display: flex;
+  gap: 290px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+#achievements {
+  display: flex;
+  gap: 290px;
+  padding-top: -40px;
+  margin-top: -40px;
+}
+
+/*end of certificates and achievements*/
+
+/*Interests*/
+
+#hobbieslist {
+  margin-left: 30px;
+  margin-top: -50px;
+}
+#hobbies {
+  display: flex;
+  gap: 700px;
+}
+
+/*end of hobbies*/
+
+/* Projects */
+
+h3 {
+  font-size: 35px;
+  margin-left: -10px;
+}
+#projector {
+  margin-left: 30px;
+}
+#projector p {
+  margin-left: -30px;
+  margin-top: -40px;
+}
+#projector1,
+#projector2 {
+  margin-top: -50px;
+}
+
+/* End of projects */
+
+/* Contacts */
+
+#links {
+  margin-top: -50px;
+  margin-left: 30px;
+}
+
+/* End of contacts */

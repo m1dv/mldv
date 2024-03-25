@@ -1,0 +1,187 @@
+* {
+  margin: 15px;
+  background-color: rgba(0, 60, 125, 0.9);
+  color: white;
+  line-height: 1.75;
+}
+strong,
+em {
+  margin: 5px;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  background-color: rgb(0, 60, 125);
+  text-transform: uppercase;
+  font-style: oblique;
+  text-align: left;
+  border: 5px solid rgb(0, 60, 125);
+  border-bottom: 5px solid #d4d4d4;
+  padding: 15px;
+}
+nav {
+  text-align: center;
+  font-size: 32.5px;
+  font-weight: bold;
+  background-color: rgba(0, 60, 125, 0.3);
+  padding: 10px;
+}
+nav a {
+  background-color: rgba(0, 60, 125, 0.3);
+}
+h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-style: capitalize;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+h4 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
+}
+/* hyperlink styling */
+a {
+  text-decoration: none;
+  color: cyan;
+  font-weight: bold;
+  margin: 0px;
+}
+a:visited {
+  color: greenyellow;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline blueviolet;
+  font-weight: bolder;
+}
+a:active {
+  font-style: italic;
+}
+/*LVHA: Link Visited Hover Active*/
+/* end of hyperlink styling */
+aside p {
+  color: #d4d4d4;
+}
+li {
+  font-size: 27.5px;
+}
+footer p {
+  font-size: 27.5px;
+  padding: 25px;
+}
+header p {
+  font-size: 18px;
+  font-style: oblique;
+  line-height: 2;
+}
+article p {
+  font-size: 27.5px;
+}
+#footerlist {
+  font-size: 27.5px;
+  text-align: center;
+}
+.lists {
+  font-style: oblique;
+}
+.websitedescriptions {
+  font-size: 18px;
+  font-weight: bolder;
+}
+aside {
+  border: 5px solid rgb(0, 60, 125);
+  border-top: 5px solid #d4d4d4;
+  border-bottom: 5px solid #d4d4d4;
+  padding: 10px;
+}
+/* li:nth-child(3) {
+  color: blue;
+} */
+.imgpls {
+  text-align: center;
+}
+.headings {
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.author {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+  height: 40px;
+}
+body {
+  border: 0.1px solid #d4d4d4;
+  padding: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.toc {
+  font-size: 17.5px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-right: 10px;
+  border: 0.1px solid #d4d4d4;
+  width: 700px;
+}
+#bgimage {
+  margin-bottom: 5px;
+}
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Inline elements such as <a>, <img>, <strong>, <em>, <button>, etc do not have the box model applied similar to them. */
+#quoted {
+  text-align: right;
+}
+#quotation {
+  color: aqua;
+  font-size: 32.5px;
+}
+#citation1 {
+  font-size: 20px;
+}
+.citationsandreferences {
+  text-decoration: none;
+  color: cyan;
+  font-weight: bold;
+  margin: 0px;
+  font-size: 15px;
+}
+#referencelist {
+  list-style: upper-roman;
+}
+#references,
+#notes {
+  border: 5px solid rgb(0, 60, 125);
+  border-top: 5px solid #d4d4d4;
+  padding: 20px;
+  margin: 15px;
+}
+.nerd {
+  margin-top: -120px;
+  float: right;
+}
